@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #9dd9d2;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_top {
+    color: #472836;
+    margin: 50px 0;
+    text-align: center;
+}
+
+p {
+    margin: 10px;
+}
+
+.search {
+    width: 500px;
+	height: 10px;
+	background-color: white;
+	border-radius: 30px;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+
+.search > button > i {
+	font-size: 20px;
+	color: #75435a;
+}
+
+.search > input{
+	flex: 1;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
+.container_bottom {
+    margin: 0 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    flex-wrap: wrap;
+    color: #472836;
+}
+
+.card {
+    background-color: #fff;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.card_info{
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #472836;
+}
+
+.btn{
+    display: inline-block;
+    padding: 0.35rem 1.2rem;
+    border: 0.1rem solid #75435a;
+    margin: 0 0.3rem 0.3rem 0;
+    border-radius: 0.12rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: 500;
+    color: #472836;
+    text-align: center;
+    transition: all 0.2s;
+    font-size: 1rem;
+}
+
+.btn:hover{
+    color: #fff;
+    background-color: #472836;
+}
+
+.search_icon{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
+
+.item_modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.toggle_modal{
+    display: block;
+}
+
+.item_modal_content{
+    background-color: #75435a;
+    margin: 15% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 50%;
+    text-align: center;
+    color: white;
+}
+
+.item_image{
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+  
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h4 {
+    margin: 5px;
+}
+
+a{
+    color: white;
+}
+
+.instructions {
+    padding: 10px;
+}
